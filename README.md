@@ -36,7 +36,7 @@ By default logrotate utility is provided with following configuration:
 
 the file can be found in `/etc/logrotate.conf`.
 
-Feel free to override using your custom version.
+Feel free to override it using your custom version.
 
 ## Crontab path
 
