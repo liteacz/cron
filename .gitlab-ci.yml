@@ -4,7 +4,7 @@ stages:
 before_script:
     - docker login -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_ACCESS_TOKEN
 
-nginx:1.17:
+cron:
     stage: build
     image: docker:stable
     services:
