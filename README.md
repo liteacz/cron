@@ -36,7 +36,7 @@ By default logrotate utility is provided with following configuration:
 
 the file can be found in `/etc/logrotate.conf`.
 
-Feel free to override it using your custom version, but make sure the file has `0644` (is not writable be group or others)
+Feel free to override it using your custom version, but make sure the file has `0644` (is not writable by group or others)
 otherwise logrotate will refuse to use it.
 
 For more information see [manual](https://linux.die.net/man/8/logrotate).
