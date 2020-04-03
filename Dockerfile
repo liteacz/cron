@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-RUN apk add --no-cache dcron logrotate wget
+RUN apk add --no-cache dcron logrotate wget curl
 
 RUN mkdir -m 0644 -p /var/log \
     && touch /var/log/cron.log
